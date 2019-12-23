@@ -52,9 +52,12 @@ git checkout -b <nama-branch> : membuat branch baru dan berpindah kedalam branch
   
 git checkout <branch-name> : berpindah ke branch lain
   
-git branch : menamilkan list branch
+git branch : menampilkan list branch
 
 git branch -d <branch-name> : menghapus branch
 
-### 1. git Rebase
+### 14. git Rebase
 perintah ini digunakan untuk menerapkan commit di branch yang lain "git rebase <nama branch>"
+
+# git Lab
+git push origin <nama feature>
