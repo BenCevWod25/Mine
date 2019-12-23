@@ -29,7 +29,7 @@ git checkout <nama file> : untuk membatalkan perubahan pada file yang sudah dimo
 
 git reset <nama file> : untuk membatalkan perubahan pada file yang sudah diadd namun belum di commit
 
-git checkout <nomer commit>: untuk mengembalikan file ke keadaan commit tertentu
+Git Revert -n <nomor commit> : mengembalikan semua file ke suatu commit
 
 ### 7. Git Stash
 perintah "git stash" digunakan untuk menyimpan file yang sudah dimodifikasi ditempat penyimpanan sementara
@@ -37,5 +37,9 @@ perintah "git stash" digunakan untuk menyimpan file yang sudah dimodifikasi dite
 ### 8. Git Push
 perintah "git push <nama remote> <nama cabang>" digunakan untuk menyimpan file yang paling baru dan fix digunakan disimpan pada projek github
 
-### 9. Git Pull
-Perintah "git pull <nama remote> <nama cabang>" digunakan untuk mengambil file yang berada di github 
+
+### 9. Git Fetch
+Perintah "git fetch <nama remote> <nama cabang>" digunakan untuk mengambil file yang berada di github
+
+### 10. Git Pull
+Perintah "git pull <nama remote> <nama cabang>" digunakan untuk mengambil file yang berada di github dan menggabungkan file tersebut dengan file didirektori lokal
