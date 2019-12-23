@@ -8,8 +8,11 @@ Agar proyek dapat diupload ke dalam akun github maka perlu dibuat remote dengan 
 
 ### 3. Kondisi File
 untracked files : File dimasukan kedalam direktori proyek file secara manual
+
 Modified : File yang sudah diedit namun belum diadd atau commit disebut kondisi
+
 staged : file yang sudah di add
+
 Commited : File yang sudah diubah menjadi kondisi staged dapat disimpan kedalam log 
 
 ### 4. Git Add
@@ -23,7 +26,9 @@ perintah "git log" user dapat melihat log-log perubahan yang sudah diCommit
 
 ### 6. Membatalkan perubahan
 git checkout <nama file> : untuk membatalkan perubahan pada file yang sudah dimodifikasi namun belum diadd
+
 git reset <nama file> : untuk membatalkan perubahan pada file yang sudah diadd namun belum di commit
+
 git checkout <nomer commit>: untuk mengembalikan file ke keadaan commit tertentu
 
 ### 7. Git Stash
