@@ -43,3 +43,18 @@ Perintah "git fetch <nama remote> <nama cabang>" digunakan untuk mengambil file 
 
 ### 11. Git Pull
 Perintah "git pull <nama remote> <nama cabang>" digunakan untuk mengambil file yang berada di github dan menggabungkan file tersebut dengan file didirektori lokal
+
+### 12. git clone
+Membuat salinan repositori
+
+### 13. git branch
+git checkout -b <nama-branch> : membuat branch baru dan berpindah kedalam branch tersebut
+  
+git checkout <branch-name> : berpindah ke branch lain
+  
+git branch : menamilkan list branch
+
+git branch -d <branch-name> : menghapus branch
+
+### 1. git Rebase
+perintah ini digunakan untuk menerapkan commit di branch yang lain "git rebase <nama branch>"
