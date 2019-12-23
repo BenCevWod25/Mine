@@ -60,4 +60,4 @@ git branch -d <branch-name> : menghapus branch
 perintah ini digunakan untuk menerapkan commit di branch yang lain "git rebase <nama branch>"
 
 # git Lab
-git push origin <nama feature>
+git push origin <nama feature> : untuk memasukan data ke origin
